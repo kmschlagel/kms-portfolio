@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Mouseover Function</title>
+<script type="text/javascript" >
+
+function swap(myimg,myid)
+{
+	document.getElementById(myid).src = myimg;
+}
+
+
+</script>
+</head>
+
+<body>
+<a href="#" onmouseover="swap('images/happy.gif', 'img1');" onmouseout="swap('images/sad.gif', 'img1');">
+<img src="images/sad.gif" id="img1" alt="sad">
+</a>
+<a href="#" onmouseover="" onmouseout="">
+<img src="images/sad_glow.gif" id="img2" alt="sad glow">
+</a>
+
+</body>
+</html>

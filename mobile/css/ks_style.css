@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;
+	font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/******************
+COLORS
+
+teal: #33cc99
+black: #000
+tan: #999966
+white: #fff
+*****************/
+
+
+/*********************
+CLEARFIX
+*********************/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*************
+Global styles
+*************/
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-wrapper {
+	position: relative;
+	padding-top: 110px;
+	min-height: 100%;
+	margin:0;
+	/*border: solid 1px yellow;*/
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'josefin_sans_stdlight';
+	color: #999966;
+
+
+}
+
+h1, h3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p.large {
+	font-size:20px;
+	padding: 1%;
+}
+
+a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration: none;
+	color: #33cc99;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+p span.bold {
+	color: #33cc99;
+}
+
+
+/**************
+Header and Nav
+**************/
+
+#header {
+	width: 100%;
+	height: 110px;
+	background: #fff;
+	z-index: 1;
+	padding: 0px;
+	margin: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	position: fixed;
+	clear: right;
+	border: solid 1px green;
+}
+
+#logo {
+	/*border: solid 1px yellow; */
+	display: inline;
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+}
+
+
+/*********************
+Main content/slides
+**********************/
+.home {
+	padding-bottom: 100px;
+	margin-left:10px;
+}
+
+.project, .home { 
+	width: 300px;
+	margin-left: 10px;
+	padding-bottom: 30px;
+}
+
+.project img {
+	border: solid 3px #999966;
+}
+
+.project p {
+	padding: 5px 0px;
+
+}
+
+
+
+/****************
+Footer
+***************/
+
+#footer {
+	margin: 0;
+	padding: 0;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #000;
+}
+
+#footer ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+
+#footer ul li {
+	float: left;
+	margin-left: 10px;
+}
+
+#back {
+	float: right;
+	margin-right: 20px;
+	margin-top: 8px;
+
+}
+
+#back a {
+	color: #fff;
+}
+
+#back a:hover {
+	color: #33cc99;
+	text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;
+	font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/******************
+COLORS
+teal: #33cc99
+black: #000
+tan: #999966
+white: #fff
+*****************/
+
+
+/*********************
+CLEARFIX
+*********************/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*************
+Global styles
+*************/
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-wrapper {
+	position: relative;
+	margin: 0px;
+	width: 100%;
+	min-height: 100%;
+	/*border: solid 1px yellow;*/
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'josefin_sans_stdlight';
+	color: #999966;
+
+}
+
+h1, h3 {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+
+p {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:16px;
+	line-height: 20px;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+p.large {
+	font-size:18px;
+	line-height: 24px;
+	color: #333;
+}
+
+span.bold {
+	font-weight:bold;
+	color: #000;
+}
+
+a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration: none;
+	color: #33cc99;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+
+/**************
+Header and Nav
+**************/
+#header {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	position: relative;
+	/*border: solid 1px yellow;*/
+}
+
+#logo {
+	width: 30%;
+	padding-left: 1.5%;
+	padding-top: 1%;
+	/*border: solid 1px yellow;*/
+	float: left;
+}
+
+
+#biline {
+	position: absolute;
+	bottom: 18px;
+	left: 210px;
+}
+#biline a{
+	font-style:italic;
+	color: #999966;
+}
+
+#biline a:hover {
+	text-decoration: none;
+	color: #999966;
+}
+
+#nav ul {
+	padding: 0px;
+	list-style: none;
+	position: absolute;
+	bottom: 5px;
+	left: 77%;
+	/*border: solid 1px red;*/
+}
+
+#nav li {
+	float: left;
+	font-size:18px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#nav a.active {
+	color: #000;
+	text-decoration:underline;
+}
+
+
+/*********************
+Main content/slides
+**********************/
+#content {
+	overflow:hidden;
+
+}
+
+
+.slide-wrapper {
+	position:relative;
+	left:0;
+	padding: 0;
+	margin: 0;
+	width:2000%;
+	/*border: solid 1px red;*/
+}
+ 
+.slide {
+	margin: 0;
+	padding: 0;
+	width:8%;
+	float:left;
+	background:#fff;
+	/*border: solid 1px green;*/
+}
+
+.slide-content {
+	margin: 0;
+	width: 60%;
+	padding-left: 4%;
+	position: relative;
+	/*border: solid 1px black;*/
+}
+
+.home-content {
+	margin: 0;
+	width: 62%;
+	padding-left: 0px;
+	position: relative;
+	/*border: solid 1px black;*/
+}
+
+.home-content .next {
+	padding: 0px;
+}
+
+.slide h1 {
+	margin-top: 1%;
+	font-size:42px;
+	color: #999966;
+	/*border: solid 1px blue;*/
+}
+
+
+/*specific to home page*/
+#home-thumbs {
+	padding-top: 2%;
+	padding-left: 0%;
+	/*border: solid 1px red;*/
+}
+
+
+#home ul.slide-thumb  li{
+	list-style:none;
+	float:left;
+	background: #fff;
+	width:200px;
+	padding: 1% 0% 1% 2.5%;
+	position: relative;
+}
+
+#home ul.slide-thumb li a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 135px;
+	width: 200px;
+	color: #33cc99;
+	background: #000;
+	font-family: 'josefin_sans_stdlight';
+	font-size:24px;
+	text-align:center;
+	padding-top: 65px;
+	text-decoration: none;
+}
+
+
+#home ul.slide-thumb li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
+		
+#home ul.slide-thumb li span {
+	font-size: 16px;
+}
+
+#home ul.slide-thumb li span.large {
+	font-size: 48px;
+}
+#home p {
+	float: left;
+	width: 20%;
+	min-height: 500px;
+	padding-top: 3%;
+	padding-left: 1.5%;
+}
+
+
+/*specific to individual project pages */
+.project-content {
+	float: left;
+	width: 40%;
+	margin-left: 2%;
+	/*border: solid 1px blue;*/
+}
+
+
+/*specific to about page*/
+#about h1 {
+	margin-left: 2%;
+}
+
+#about-img {
+	float: left;
+	margin-left: 2%;
+	/*border: solid 1px orange;*/
+	padding-bottom: 1%;
+}
+
+#about-img img {
+	width: 100%;
+}
+
+.about-content {
+	float: left;
+	width: 45%;
+	margin-left: 2%;
+}
+
+
+/*slide controls*/
+.next {
+	position: absolute;
+	right: 0;
+	padding-right: 3%;
+	top: 40%;
+	/*border: solid 1px blue;*/
+}
+
+
+
+.prev {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	/*border: solid 1px red;*/
+}
+
+/****************
+Footer
+***************/
+#footer {
+	margin: 0;
+	padding: 0;
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #000;
+}
+
+#footer ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-left: 1.5%;
+}
+
+#footer ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+
