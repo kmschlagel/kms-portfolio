@@ -72,9 +72,11 @@ if ($isIphoneIpod == 1) {
 <div class="slide-wrapper clearfix">
 <div id="home" class="slide">
     <div class="home-content clearfix">
-        <p class="large">Hi, there! I’m a freelance web designer and developer in Saint Paul, MN. I love the excitement
-            of creating designs from scratch and the challenge of making those designs come to life through code. This
-            is a collection of some of my recent projects. Thanks for stopping by!</p>
+        <p class="large">Hi, there! I’m a front-end developer for a marketing consulting company in Minneapolis, MN. In
+            my spare time, I do small freelance web design and development projects to keep me out of trouble.
+            I love the excitement of creating new designs from scratch and the
+            challenge of those making designs come to life through code. This is a collection of some of my recent
+            work. Thanks for stopping by!</p>
         <a href="#" onClick="goto('#project1', this); return false" class="next"><img src="img/next48.png" alt="next"
                                                                                       title="next" width="48"
                                                                                       height="48"/></a>
@@ -103,7 +105,7 @@ if ($isIphoneIpod == 1) {
                                                              title="White Bear Lift and Dock"/>White Bear <br/> Lift
                     &amp; Dock <br/><span> view project</span></a></li>
             <li><a href="#project8" class="slider-link"><img src="img/work_thumbs/NAM-Logo.png" alt="Nicholas A. Mauro"
-                                         title="Nicholas A. Mauro"/>Nicholas A. Mauro<br><span> view project</span></a>
+                                                             title="Nicholas A. Mauro"/>Nicholas A. Mauro<br><span> view project</span></a>
             </li>
         </ul>
     </div>
@@ -354,13 +356,19 @@ if ($isIphoneIpod == 1) {
             <p><span class="bold">Task:</span> Create a simple, single-page website for a Spanish conversation group.
             </p>
 
-            <p><span class="bold">Process:</span> I discussed the client’s vision and goals and helped her set up a
-                hosting account. She felt very strongly about keeping the site down to one page, so to eliminate excess
-                scrolling, I added links along the right side and throughout the content that allow you to jump to
+            <p><span class="bold">Process:</span> After discussing the client’s vision and goals, I helped her set up a
+                web hosting account and drafted a series of wireframes for her approval. She wanted to keep the site down to one page, so to eliminate
+                excess scrolling, I added links along the right side and throughout the content, allowing the user to
+                jump to
                 various sections. The client was very happy with the result and asked me to design and develop a second
-                page for her travel group. I continue to maintain both pages with occasional content updates.</p>
+                page for her travel group.</p>
 
-            <p><span class="bold">Skills:</span> Graphic Design, HTML, CSS <br/><a
+            <p>Recently, the client chose to expand the site, adding a newsletter page with
+                a subscription form. This required adding a small navigation bar at the top and a simple sign-up form. I
+                continue to
+                maintain the site with regular content updates.</p>
+
+            <p><span class="bold">Skills:</span> Graphic Design, HTML, CSS, PHP <br/><a
                     href="http://www.rosasconversations.com" target="blank">www.rosasconversations.com</a></p>
         </div>
         <!-- /project-content-->
@@ -439,13 +447,15 @@ if ($isIphoneIpod == 1) {
 
             <p><span class="bold">Process:</span> The client was a visiting professor in search of a tenure-track
                 position and in charge of a small group of research students. Because of his unique position, the client
-                desired two major functions of the site: to serve as a personal portfolio so potential employers could view
-                his work and research experience and to communicate regularly with his students and monitor their
+                desired two major functions of the site: to serve as a personal portfolio so potential employers could
+                view his work and research experience and to communicate regularly with his students and monitor their
                 progress. This is a WordPress site that I developed with a colleague. It features password-protected
                 class materials, allowing the client to post class material regularly, but hide important
-                information from non-participants. It also has multi-blog functionality, where each student can submit project updates to their
-                personal blog page.  My portion of the project involved regular communication with the
-                client, designing and developing the interface, and developing key pieces of functionality like the menu drop-downs and
+                information from non-participants. It also has multi-blog functionality, where each student can submit
+                project updates to their
+                personal blog page. My portion of the project involved regular communication with the
+                client, designing and developing the interface, and developing key pieces of functionality like the menu
+                drop-downs and
                 password-protected pages.</p>
 
             <p><span class="bold">Skills:</span> WordPress Development, HTML, CSS, Graphic Design <br/><a
@@ -472,17 +482,16 @@ if ($isIphoneIpod == 1) {
             <p>I have always been a creative person. At an early age, I took pleasure in the infinite possibilities of
                 the new coloring book, the lump of clay, the blank page. The process of hatching an idea and bringing it
                 to life thrilled me and led me to pursue a Bachelor's Degree in English, with a focus on creative
-                writing. For the past seven years, I have flexed that creative muscle as a Video Describer, crafting
+                writing. For seven years, I flexed that creative muscle as a Video Describer, crafting
                 descriptions of television shows for blind/low vision audiences. I loved my work, but I knew there was
-                more to be conquered. A desire to learn and a curiosity about the web led me to the Minneapolis
-                Community & Technical College where I began classes in Web Design and Interactive Media. I was hooked.
+                more to be conquered. A desire to learn and a curiosity about programming and technology led me to the Minneapolis
+                Community &amp; Technical College where I began classes in Web Design and Interactive Media. I was hooked.
                 My blank coloring book was now a white screen with limitless potential. </p>
 
-            <p>Web design/development is my passion. It fulfills and challenges me in ways I never expected and adds
+            <p>Web development is my passion. It fulfills and challenges me in ways I never expected and adds
                 depth and dimension to my creative experience.</p>
 
-            <p>When I'm not obsessing about web stuff, I like to knit, write letters, attend concerts, run, browse
-                thrift stores, cross stuff off "to-do" lists and perfect my hummus recipe. Holy Land, how do you do it?!
+            <p>When I'm not obsessing about web stuff, I like to read, go to concerts, cook, cross stuff off "to-do" lists and feed my Pinterest addiction.
                 <br/> <a href="KateSchlagelResume.pdf" target="blank">Resume</a></p>
         </div>
         <!-- /about-content-->
